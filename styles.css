@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Barlow+Semi+Condensed:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap');
+
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: Gotham Rounded, sans-serif;
-    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
   }
   
   body {
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right, #476958, #3d4866);
+    background: linear-gradient(15deg, #1a2a6c, #b21f1f, #fdbb2d);
   }
   
   .calculator-grid {
@@ -23,13 +25,13 @@
   .calculator-grid > button {
     cursor: pointer;
     font-size: 2rem;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid #000000;
     outline: none;
-    background-color: rgba(43, 43, 43, 0.75);
+    background-color: rgba(216, 202, 202, 0.75);
   }
   
   .calculator-grid > button:hover {
-    background-color: rgba(73, 73, 73, 0.9);
+    background-color: rgba(192, 178, 178, 0.75)
   }
   
   .span-two {
@@ -38,22 +40,24 @@
   
   .output {
     grid-column: 1 / -1;
-    background-color: rgba(0, 0, 0, .85);
+    background-color: rgba(0, 0, 0, 0.851);
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
+    border-radius: 0.5rem 0.5rem 0 0;
     flex-direction: column;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
     padding: 10px;
     word-wrap: break-word;
     word-break: break-all;
   }
   
   .output .previous-operand {
-    color: rgb(8, 172, 8);
+    color: #07cc07;
     font-size: 1.5rem;
   }
   
   .output .current-operand {
-    color: rgb(7, 204, 7);
+    color: #07cc07;
     font-size: 2.5rem;
   }
