@@ -1,4 +1,4 @@
-# Calculator-with-Web
+# calculator-for-web
 Calculadora feita com Tríade Web (HTML, CSS e JavaScript).
 
 ![Screenshot](print.png)
